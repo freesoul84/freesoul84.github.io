@@ -1,3 +1,4 @@
+
 /* loaded: a bootstrap.min.css! */
 .hey-there {
   font-size: 30px;
@@ -58,7 +59,7 @@
   z-index: 1;
   background-color: rgba(255, 255, 255, 1);
   color: inherit;
-  height: 60%;
+  /* height: 60%; */
   width: 60%;
   left: 0;
   right: 0;
@@ -187,9 +188,8 @@ ul.arrow li::before {
 }
 
 .ski-li ul {
-  width: 300px;
+  width: 280px;
   position: absolute;
-  left: 15%;
   margin-top: 25px;
 }
 
@@ -253,13 +253,13 @@ li:nth-child(5) {
 
 h5.item-title {
   justify-content: center;
-  margin-left: 40px;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  position: relative;
+  /* position: relative; */
   color: #ff6600;
   margin-top: 25px;
+  text-align: center;
 }
 
 
