@@ -61,16 +61,17 @@
   color: inherit;
   /* height: 60%; */
   width: 60%;
+  
   left: 0;
   right: 0;
   margin: auto;
   animation: mymove 3s;
   animation-fill-mode: forwards;
   border-radius: 50px;
-  padding-bottom: 200px;
-  -moz-box-shadow: 10px 10px 5px rgb(106, 104, 104);
--webkit-box-shadow: 10px 10px 5px rgb(118, 113, 113);
-box-shadow: 10px 10px 5px rgb(133, 131, 131);
+  padding-bottom: 70px;
+  -moz-box-shadow: 10px 10px 5px rgb(150, 145, 145);
+-webkit-box-shadow: 10px 10px 5px rgb(153, 145, 145);
+box-shadow: 10px 10px 5px rgb(161, 157, 157);
 
   
 }
@@ -423,7 +424,7 @@ SKIN
 }
 
 .timeline__card::before{
-  content: ";
+  content: "";
   width: 100%;
   height: var(--timelineCardLineWidth, 2px);
   background-color: var(--timelineCardLineBackgroundColor, var(--uiTimelineMainColor));
