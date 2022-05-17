@@ -15,7 +15,7 @@
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #ff6600;
+  color: #9900EF;
 }
 
 .contact-title h2::after {
@@ -24,7 +24,7 @@
   display: block;
   width: 50px;
   height: 3px;
-  background: #ff6600;
+  background: #9900EF;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -35,24 +35,24 @@
 
 
 .btnresume{
-  background-color: #ff8734;
+  background-color: #D699F9;
   font-size:20px;
-  border:#ff6600 2px solid;
+  border:#9900EF 2px solid;
   border-radius:10px;
   color : white;
   padding: 20px;
 }
 .btnresume:hover{
-  background-color:#ff6600;
-  border:#ff8734 3px solid;
-  font-size:22px;
+  background-color: #9900EF;
+  border:  #B952F5 2px solid;
+  font-size:21px;
 }
 .fa-file:hover{
-  background-color: #ffd7bb;
+  background-color: #ffffff;
 }
 
 .he-resume-text{
-  color: #ff6600;
+  color: #ffffff;
 }
 .ov {
   position: absolute;
@@ -91,7 +91,7 @@ box-shadow: 10px 10px 5px rgb(189, 184, 184);
   width: 100%;
 }
 .contact-title {
-  color: #ff6600;
+  color: #9900EF;
 }
 .contact-content {
   text-align: center;
@@ -137,7 +137,7 @@ textarea {
   margin-top: 15px;
   width: 100%;
   height: 40px;
-  background: #ff6600;
+  background: #9900EF;
   border-color: #ff8734;
   color: white;
   font-weight: bold;
@@ -150,8 +150,8 @@ textarea {
   font-size: 20px;
 }
 .submit:hover {
-  background: #ffd7bb;
-  color: #ff6600;
+  background: #b647f3;
+  color: #9900EF;
 }
 .boxShadow {
   -webkit-transition: all 250ms;
@@ -182,7 +182,7 @@ ul.arrow li::before {
   top: 6px;
   height: 5px;
   width: 5px;
-  border: 1px solid #ff6600;
+  border: 1px solid #9900EF;
   border-width: 2px 2px 0 0;
   transform: rotate(45deg);
 }
@@ -196,7 +196,7 @@ ul.arrow li::before {
 .ski-li li {
   position: relative;
   display: block;
-  border: 1px solid #ff6600;
+  border: 1px solid #9900EF;
   margin-bottom: 5px;
   padding: 10px;
   text-align: center;
@@ -204,7 +204,7 @@ ul.arrow li::before {
   animation: fadeIn 0.5s linear;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  background-color:#ff6600;
+  background-color:#9900EF;
   font-weight: bold;
 }
 
@@ -257,7 +257,7 @@ h5.item-title {
   font-weight: bold;
   text-transform: uppercase;
   /* position: relative; */
-  color: #ff6600;
+  color: #9900EF;
   margin-top: 25px;
   text-align: center;
 }

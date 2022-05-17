@@ -12,14 +12,14 @@ html {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #FF8734;
+  background: #9900EF;
   padding: 200px 0 0 0; 
   position: relative;
 }
 
 
 #footer .copyright-wrap {
-  background-color: #FF8734;
+  background-color: #9900EF;
   color: white;
   font-size: 15px;
   font-weight: 15;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #FF8734;
+  /*background: ;*/
   color: #fff;
   transition: all 0.4s;
   border-color: #ffffff;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #FF8734;
+  background: #d699f9;
   color: #fff;
 }
 
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 1;
   overflow: hidden;
-  background: #FF6900;
+  background: #9900EF;
   border-color: #ffffff;
   border-width: 5px;
 }
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: #FF6900;
+  background: #9900EF;
   padding: 12px 0;
 }
 
@@ -366,6 +366,8 @@ position: fixed !important;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
+
+  
   background: #fff;
   transition: ease-in-out 0.2s;
   opacity: 0;
@@ -390,7 +392,7 @@ position: fixed !important;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #e67b24;
+  color: #D699F9;
   text-decoration: none;
 }
 
@@ -614,7 +616,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #FF6900;
+  color: #ffffff;
 }
 .skill-title h2::after {
   content: '';
@@ -622,7 +624,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ff6900;
+  background: #9900EF;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -854,13 +856,6 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-.contact {
-  background: linear-gradient(42deg, #ff8734 0%, #FFAB70 100%);
-}
-
 .contact .section-title h2, .contact .section-title p {
   color: #fff;
 }
@@ -996,7 +991,7 @@ section {
 }
 
 #projects{
-  background: #ff8734;
+  background: #D699F9;
 }
 /*--------------------------------------------------------------
 # projects Details
@@ -1029,7 +1024,7 @@ section {
 }
 
 .projects-details .projects-details-carousel .owl-dot.active {
-  background-color: #ffab70 !important;
+  background-color: #D699F9 !important;
 }
 
 .projects-details .projects-info {
@@ -1121,14 +1116,14 @@ section {
   padding-right: 10px; */
   display: block;
   padding-top:5px;
-  background-color: #FF6900;
+  background-color: #9900ef;
 }
 
 
 @media screen and (max-width: 765px){
   .navStyle ul{
           /* position: fixed; */
-          background: #FF6900 !important; 
+          background: #9900ef !important; 
 }
 
 }
@@ -1156,4 +1151,8 @@ section {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+.experience{
+  background-color: #d699f9;
 }

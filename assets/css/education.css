@@ -5,7 +5,7 @@ header h1{
 }
  
 .education{
-  background: #FF6900;
+  background: #9900EF;
 }
   
  header p{
@@ -84,7 +84,7 @@ header h1{
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #FFd7bb;
+  background: #d699f9;
   z-index: 5;
   left: 0;
   right: 0;
@@ -96,7 +96,7 @@ header h1{
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #FFd7bb;
+  border-bottom: 4px solid #d699f9;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -105,7 +105,7 @@ header h1{
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #FFd7bb;
+  border-top: 4px solid #d699f9;
   bottom: -4px;
 }
 
@@ -167,7 +167,7 @@ header h1{
   z-index: 14;
   line-height: 1em;
   vertical-align: middle;
-  color: #ff6900;
+  color: #9900EF;
   
 }
 
@@ -320,5 +320,5 @@ header h1{
 
 .skills{
   height: 100%;
-  background: #FFd7bb;
+  background: #b952f5;
 }
