@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 1;
-  border-color: #ffffff;
+  border-color: #ffffff#;
 }
 
 .back-to-top i {
@@ -581,7 +581,7 @@ section {
 
 .skill-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .project-title {
@@ -624,7 +624,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #9900EF;
+  background: #ffffff;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -724,9 +724,10 @@ section {
 
 
 .jumbo-text-content{
-  color: black;
+  color: #9900EF;
   font-weight: bold;
   text-align: justify;
+
 }
 
 
@@ -1155,4 +1156,8 @@ section {
 
 .experience{
   background-color: #d699f9;
+}
+
+h1.alkesha-name{
+  color: #9900ef;
 }
